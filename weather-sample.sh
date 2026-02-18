@@ -1,0 +1,73 @@
+#!/bin/bash
+
+# Emma's Daily Hong Kong Weather Briefing - Sample Template
+# This is a sample weather report for demonstration purposes
+
+echo "🌤️ Emma's Daily Hong Kong Weather Briefing"
+echo "=========================================="
+echo "📅 Date: $(date '+%Y-%m-%d')"
+echo "⏰ Time: $(date '+%H:%M HKT')"
+echo ""
+
+echo "🌡️ CURRENT TEMPERATURE"
+echo "----------------------"
+echo "📍 Hong Kong Observatory"
+echo "🌡️ Current: 24°C"
+echo "🔥 Feels like: 26°C"
+echo "📊 High: 28°C"
+echo "🧊 Low: 22°C"
+echo ""
+
+echo "🌦️ WEATHER CONDITIONS"
+echo "--------------------"
+echo "🌤️ Conditions: Partly Cloudy"
+echo "☁️ Cloud Cover: 60%"
+echo "💧 Humidity: 75%"
+echo "👁️ Visibility: 20km"
+echo "🌈 UV Index: 6 (High)"
+echo ""
+
+echo "📋 CURRENT WARNINGS/ALERTS"
+echo "------------------------"
+echo "✅ No active weather warnings"
+echo "🟡 General advisory: High UV index"
+echo "💡 Tip: Apply sunscreen if outdoors for extended periods"
+echo ""
+
+echo "🌤️ HOURLY FORECAST SUMMARY"
+echo "--------------------------"
+echo "🕐 07:00 - 25°C, Partly Cloudy"
+echo "🕐 10:00 - 27°C, Mostly Sunny"
+echo "🕐 13:00 - 28°C, Sunny"
+echo "🕐 16:00 - 27°C, Partly Cloudy"
+echo "🕐 19:00 - 25°C, Clear"
+echo "🕐 22:00 - 23°C, Clear"
+echo ""
+
+echo "💨 WIND CONDITIONS"
+echo "------------------"
+echo "🌬️ Direction: East-Northeast"
+echo "💨 Speed: 15 km/h"
+echo "🌀 Gusts: Up to 25 km/h"
+echo "🌊 Sea Conditions: Moderate"
+echo ""
+
+echo "💧 HUMIDITY LEVELS"
+echo "------------------"
+echo "💧 Current: 75%"
+echo "💧 Morning: 80%"
+echo "💧 Afternoon: 65%"
+echo "💧 Evening: 85%"
+echo ""
+
+echo "📱 Emma's Weather Tips"
+echo "---------------------"
+echo "👔 Clothing: Light, breathable fabrics"
+echo "☂️ Umbrella: Not needed today"
+echo "🕶️ Sunglasses: Recommended (high UV)"
+echo "💦 Hydration: Important due to humidity"
+echo ""
+
+echo "✅ Emma's Daily Briefing Complete!"
+echo "📧 Next briefing: Tomorrow at 6:45 AM HKT"
+echo "🤖 Have a wonderful day, Alfred!"
