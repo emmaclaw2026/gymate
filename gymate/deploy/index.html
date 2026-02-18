@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gymate - Gym Social Networking</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .container {
+            text-align: center;
+            color: white;
+            max-width: 800px;
+            padding: 40px 20px;
+        }
+        
+        .logo {
+            font-size: 48px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .tagline {
+            font-size: 24px;
+            margin-bottom: 40px;
+            opacity: 0.9;
+        }
+        
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+        
+        .feature {
+            background: rgba(255,255,255,0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 12px;
+            padding: 30px;
+            border: 1px solid rgba(255,255,255,0.2);
+        }
+        
+        .feature h3 {
+            font-size: 20px;
+            margin-bottom: 15px;
+            color: #fff;
+        }
+        
+        .feature p {
+            opacity: 0.8;
+            line-height: 1.6;
+        }
+        
+        .cta-buttons {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        
+        .btn {
+            padding: 15px 30px;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            transition: all 0.3s ease;
+        }
+        
+        .btn-primary {
+            background: #007bff;
+            color: white;
+        }
+        
+        .btn-primary:hover {
+            background: #0056b3;
+            transform: translateY(-2px);
+        }
+        
+        .btn-secondary {
+            background: transparent;
+            color: white;
+            border: 2px solid white;
+        }
+        
+        .btn-secondary:hover {
+            background: white;
+            color: #667eea;
+        }
+        
+        .status {
+            margin-top: 40px;
+            padding: 20px;
+            background: rgba(255,255,255,0.1);
+            border-radius: 8px;
+            border-left: 4px solid #28a745;
+        }
+        
+        .status h3 {
+            margin-bottom: 10px;
+            color: #28a745;
+        }
+        
+        .status ul {
+            text-align: left;
+            list-style: none;
+        }
+        
+        .status li {
+            padding: 5px 0;
+            opacity: 0.9;
+        }
+        
+        .status li::before {
+            content: "✅ ";
+            margin-right: 10px;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+            
+            .logo {
+                font-size: 36px;
+            }
+            
+            .tagline {
+                font-size: 20px;
+            }
+            
+            .features {
+                grid-template-columns: 1fr;
+            }
+            
+            .cta-buttons {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">🏋️ Gymate</div>
+        <div class="tagline">Connect, Share, and Grow Your Fitness Journey</div>
+        
+        <div class="features">
+            <div class="feature">
+                <h3>🔐 Secure Authentication</h3>
+                <p>Firebase-powered login with Google OAuth for secure access to your fitness community.</p>
+            </div>
+            <div class="feature">
+                <h3>💪 Workout Tracking</h3>
+                <p>Log and share your workouts, track progress, and achieve your fitness goals.</p>
+            </div>
+            <div class="feature">
+                <h3>👥 Social Community</h3>
+                <p>Connect with gym buddies, join groups, and participate in fitness challenges.</p>
+            </div>
+            <div class="feature">
+                <h3>📅 Events & Classes</h3>
+                <p>Discover and join fitness classes, workshops, and community events.</p>
+            </div>
+        </div>
+        
+        <div class="cta-buttons">
+            <a href="https://github.com/emmaclaw2026/gymate" class="btn btn-primary">View on GitHub</a>
+            <a href="#deployment" class="btn btn-secondary">Learn More</a>
+        </div>
+        
+        <div class="status">
+            <h3>🚀 Deployment Status</h3>
+            <ul>
+                <li>✅ React frontend with routing system</li>
+                <li>✅ Firebase authentication with Google OAuth</li>
+                <li>✅ Express backend with Firebase Admin SDK</li>
+                <li>✅ Complete project structure and configuration</li>
+                <li>✅ Responsive design and navigation</li>
+                <li>🔄 Ready for cloud deployment</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
