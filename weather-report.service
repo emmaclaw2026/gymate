@@ -1,0 +1,13 @@
+[Unit]
+Description=Emma's Daily Weather Briefing Service
+After=network.target
+
+[Service]
+Type=oneshot
+User=alfredsung
+ExecStart=/home/alfredsung/.openclaw/workspace/tomorrow-weather-report.sh
+WorkingDirectory=/home/alfredsung/.openclaw/workspace
+Environment=PATH=/usr/local/bin:/usr/bin:/bin
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,10 @@
+[Unit]
+Description=Emma's Daily Weather Briefing Timer
+
+[Timer]
+OnCalendar=*-*-* 06:45:00
+Persistent=true
+AccuracySec=1min
+
+[Install]
+WantedBy=timers.target
